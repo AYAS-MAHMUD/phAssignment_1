@@ -23,7 +23,7 @@ body{
 }
 .navcontainer h1{
     font-size: 34px;
-    font-weight: bold;
+    font-weight: bolder;
     color: var(--primary-color);
 }
 .navcontainer button{
@@ -45,7 +45,7 @@ body{
     font-size: 65px;
     font-weight: bold;
     text-align: center;
-    margin-top: 158px;
+    margin-top: 140px;
 
 }
 .text-box1 button{
@@ -57,7 +57,7 @@ body{
     color: #fff;
     background-color: var(--primary-color);
     margin-left: 630px;
-    margin-top: 16px;
+    margin-top: 25px;
 }
 /* action-section */
 #action{
@@ -97,4 +97,34 @@ body{
 }
 .action-container img{
     border-radius: 48px;
+}
+
+/* Productive User Section */
+#user{
+    height: 306px;
+    width: 1140px;
+    background-color: #4d47ff28;
+    margin-top: 100px;
+    margin-left: 130px;
+    padding: 50px 80px 50px 80px;
+}
+
+.user-container h1{
+    font-size: 38px;
+    text-align: center;
+    color: var(--text-color);
+}
+.sub-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sub-container h1{
+    font-size: 80px;
+    color: var(--primary-color);
+    margin-top: 20px;
+
+}
+.sub-container p{
+    font-size: 20px;
+    color: var(--p-color);
 }
