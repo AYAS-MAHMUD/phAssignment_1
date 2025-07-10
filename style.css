@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+    --primary-color: #4E47FF;
+    --text-color: #252432;
+    --p-color: #8987A1;
+}
+
+/* nav design */
+.navcontainer{
+    width: 1140px;
+    height: 151px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 130px;
+}
+.navcontainer h1{
+    font-size: 34px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.navcontainer button{
+    height: 48px;
+    width: 132px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: var(--primary-color);
+} 
+/* hero section */
+#home{
+    height: 698px;
+    width: 1440px;
+    background-color: red;
+    background-image: url(./photo/Hero-bg.png);
+}
+.text-box1 h1{
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 158px;
+
+}
+.text-box1 button{
+    height: 48px;
+    width: 174px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: var(--primary-color);
+    margin-left: 660px;
+    margin-top: 16px;
+}
+/* action-section */
+#action{
+    height: 328px;
+    width: 1140px;
+    background-color: red;
+    margin-left: 130px;
+}
+.action-container{
+    display: flex;
+    justify-content: space-between;
+}
