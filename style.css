@@ -9,7 +9,9 @@
     --text-color: #252432;
     --p-color: #8987A1;
 }
-
+body{
+    background-color: #f0eeee;
+}
 /* nav design */
 .navcontainer{
     width: 1140px;
@@ -37,7 +39,6 @@
 #home{
     height: 698px;
     width: 1440px;
-    background-color: red;
     background-image: url(./photo/Hero-bg.png);
 }
 .text-box1 h1{
@@ -55,17 +56,45 @@
     border-radius: 5px;
     color: #fff;
     background-color: var(--primary-color);
-    margin-left: 660px;
+    margin-left: 630px;
     margin-top: 16px;
 }
 /* action-section */
 #action{
     height: 328px;
     width: 1140px;
-    background-color: red;
     margin-left: 130px;
 }
 .action-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.action-container .box1{
+    height: 203px;
+    width: 517px;
+}
+.action-container .box1 h1{
+    font-size: 42px;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-bottom: 30px;
+}
+.action-container p{
+    color: var(--p-color);
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.action-container button{
+    width: 229px;
+    height: 38px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: var(--primary-color);
+}
+.action-container img{
+    border-radius: 48px;
 }
