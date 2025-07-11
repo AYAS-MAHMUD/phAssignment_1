@@ -134,11 +134,10 @@ body{
 #feedback{
     height: 342px;
     width: 1140px;
-    background-color: red;
     margin-top: 100px;
     margin-left: 130px;
 }
-.feedback-container h1{
+.feedback-container #head-text{
     font-size: 42px;
     font-weight: bold;
     color: var(--text-color);
@@ -146,16 +145,56 @@ body{
     margin-bottom: 50px;
 }
 .inner-container{
-    background-color: green;
     height: 243px;
     display: flex;
     justify-content: space-between;
 }
+/* box */
 .inner-container .box1{
     width: 31%;
     border-radius: 14px;
-    background-color: #4E47FF;
+    background-color: #fff;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    padding: 25px;
 }
+.inner-container .box1 h1{
+    font-size: 26px;
+    margin-top: 20px;
+
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+.inner-container .box1 p{
+    font-size: 20px;
+    color: var(--p-color);
+}
+.inner-container .box1 .img-box{
+    display: flex;
+    width: 318px;
+    height: 46px;
+    margin-top: 20px;
+}
+.inner-container .box1 .image{
+    margin-right: 40px;
+    height: 20px;
+    width: 20px;
+}
+.inner-container .box1 img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .inner-container .box2{
     width: 31%;
     background-color: #5f5e82;
