@@ -68,6 +68,17 @@ body{
     background-color: var(--primary-color);
     margin-left: 630px;
     margin-top: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s,box-shadow 0.3s;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s,box-shadow 0.3s;
+
+}
+.text-box1 button:hover{
+    background-color: #5586f0;
+    transform: scale(1.05);
+    border: 2px solid white;
+    box-shadow: 0 0px 5px rgba(11, 178, 229, 0.4),0 0px 15px rgba(11, 178, 229, 0.4);
 }
 /* action-section */
 #action{
@@ -104,7 +115,17 @@ body{
     border-radius: 5px;
     color: #fff;
     background-color: var(--primary-color);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s,box-shadow 0.3s;
+
 }
+.action-container button:hover{
+    background-color: #5586f0;
+    transform: scale(1.05);
+    border: 2px solid white;
+    box-shadow: 0 0px 5px rgba(11, 178, 229, 0.4),0 0px 15px rgba(11, 178, 229, 0.4);
+}
+
 .action-container img{
     border-radius: 48px;
 }
@@ -224,12 +245,22 @@ body{
     width: 195px;
     margin-bottom: 20px;
     margin-left: 140px;
-        font-weight: bold;
+    font-weight: bold;
     font-size: 16px;
     border-radius: 5px;
     color: #fff;
     background-color: var(--primary-color);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s,box-shadow 0.3s;
+
 }
+.focus-container button:hover{
+    background-color: #5586f0;
+    transform: scale(1.05);
+    border: 2px solid white;
+    box-shadow: 0 0px 5px rgba(11, 178, 229, 0.4),0 0px 15px rgba(11, 178, 229, 0.4);
+}
+
 .focus-container img{
     border-radius: 48px;
 }
@@ -285,6 +316,15 @@ body{
     border-radius: 5px;
     color: #fff;
     background-color: var(--primary-color);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s,box-shadow 0.3s;
+
+}
+.label-text button:hover{
+    background-color: #5586f0;
+    transform: scale(1.05);
+    border: 2px solid white;
+    box-shadow: 0 0px 5px rgba(11, 178, 229, 0.4),0 0px 15px rgba(11, 178, 229, 0.4);
 }
 
 /* Foter design */
@@ -325,4 +365,10 @@ body{
 .foter-container ul li a{
     text-decoration: none;
     color: var(--p-color);
+}
+#copy{
+    text-align: center;
+    background-color: #636265;
+    color: #fff;
+    padding: 10px 0px 10px 0px;
 }
