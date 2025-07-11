@@ -5,9 +5,6 @@
     font-family: sans-serif;
     scroll-behavior: smooth;
 }
-button:hover{
-    background-color: red;
-}
 :root{
     --primary-color: #4E47FF;
     --text-color: #252432;
@@ -38,7 +35,16 @@ body{
     border-radius: 5px;
     color: #fff;
     background-color: var(--primary-color);
+
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s,box-shadow 0.3s;
 } 
+.navcontainer button:hover{
+    background-color: #5586f0;
+    transform: scale(1.05);
+    border: 2px solid white;
+    box-shadow: 0 0px 5px rgba(11, 178, 229, 0.4),0 0px 15px rgba(11, 178, 229, 0.4);
+}
 /* hero section */
 #home{
     height: 698px;
