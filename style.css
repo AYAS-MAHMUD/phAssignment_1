@@ -184,22 +184,45 @@ body{
     object-fit: cover;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.inner-container .box2{
-    width: 31%;
-    background-color: #5f5e82;
+/* Focus Section */
+#focus{
+    height: 698px;
+    width: 1140px;
+    margin-top: 100px;
+    margin-left: 130px;
+    background-color: #fff;
+    padding: 71px 150px 71px 150px;
+    border-radius: 10px;
 }
-.inner-container .box3{
-    width: 31%;
-    background-color: #4E47FF;
+.focus-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+.focus-container .focus-text h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+.focus-container .focus-text p{
+    color: var(--p-color);
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.focus-container .focus-text button{
+    height: 48px;
+    width: 195px;
+    margin-bottom: 20px;
+    margin-left: 140px;
+        font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: var(--primary-color);
+}
+.focus-container img{
+    border-radius: 48px;
+}
+
+
+
